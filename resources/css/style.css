@@ -9,7 +9,9 @@ body {
   font-size: 22px;
   text-align: center;
 }
+
 /* Header */
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -40,8 +42,8 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
-/* Main Content */
 
+/* Main Content */
 
 div {
   display: block;
@@ -71,9 +73,11 @@ h2, h3, h4 {
     background-color: black;
     width: 1200px;
 }
+
 /* Store Section */
+
 #store {
-  height: 700px
+  height: 700px;
   width: 1000px;
   margin: auto;
   padding-top: 70px;
@@ -117,13 +121,12 @@ h2, h3, h4 {
   margin: 5px 20px;
   background-color: black;
   flex-basis: 280px;
-  /* align-items: flex-start; */
+
   display: inline-flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
 }
 /* Footer */
 
 footer {
-text-align: left; 
+text-align: left;
 }
