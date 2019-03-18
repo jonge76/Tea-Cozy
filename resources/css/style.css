@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  font-family: 'Helvetica';
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+/* Header & Nav */
+
+.header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  padding-left: 10px;
+}
+.logo {
+  height: 50px;
+}
+span {
+
+}
+nav {
+  text-align: right;
+  height: 69px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  /* width: 100%; */
+}
+
+/* Body */
+
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  text-align: center;
+}
