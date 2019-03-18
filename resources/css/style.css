@@ -1,5 +1,15 @@
-/* Header */
+/* Universal Styles */
 
+body {
+  display: block;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+/* Header */
 .flex-container {
   display: flex;
   justify-content: center;
@@ -17,8 +27,9 @@ header {
 header img {
   height: 50px;
   padding-left: 10px;
-  margin: 0px 200px;
+  /* margin: 0px 200px; */
 }
+
 a {
   color: seashell;
 }
@@ -30,13 +41,11 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
-body {
-  margin: 0;
-  font-family: "Helvetica", sans-serif;
-  color: seashell;
-  background-color: black;
-  font-size: 22px;
-  text-align: center;
+/* Main Content */
+
+
+div {
+  display: block;
 }
 #mission {
   height: 700px;
@@ -45,6 +54,11 @@ body {
   width: 1200px;
   margin: 0px auto;
   align-items: center;
+}
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
 h4 {
   display: block;
@@ -57,4 +71,26 @@ h2, h3, h4 {
 .content {
     background-color: black;
     width: 1200px;
+}
+/* Store Section */
+#store {
+  height: 700px
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.item {
+  padding: 5px;
+}
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+
 }
